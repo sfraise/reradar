@@ -1,0 +1,101 @@
+/*** ADMIN DASHBOARD STYLES ***/
+.submit-button {
+    display: inline-block;
+    background: #8b0000;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px 10px;
+    -webkit-transition: all 0.2s linear !important;
+    -moz-transition: all 0.2s linear !important;
+    -ms-transition: all 0.2s linear !important;
+    -o-transition: all 0.2s linear !important;
+    transition: all 0.2s linear !important;
+    box-shadow: 1px 1px 2px #888;
+    -moz-box-shadow: 1px 1px 2px #888;
+    -webkit-box-shadow: 1px 1px 2px #888;
+    cursor: pointer;
+}
+
+.fa {
+    margin-right: 3px;
+}
+
+#ajax-loading, .ajax-feedback, .ajax-loading, .imgedit-wait-spin, .list-ajax-loading {
+    visibility: visible;
+}
+
+.acf-field .acf-label label {
+    font-size: 20px;
+}
+
+.curation-url-submit, .spin-content-submit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.curation-url-submit:hover {
+    background: #008000;
+}
+
+.summarize-content-submit {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.curation-submit-notice {
+    color: #ff0000;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.original-content .mce-toolbar-grp {
+    display: none;
+}
+
+.headline .acf-editor-wrap iframe {
+    min-height: 0;
+    height: 100px !important;
+}
+
+.spin-content-submit {
+    display: none;
+}
+
+.resummarize-content-submit {
+    float: right;
+    margin-top: -30px;
+}
+
+.resummarized-content-wrapper {
+    display: none;
+    background: #eee;
+    padding: 20px;
+    max-height: 300px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.resummarize-content-title {
+    font-weight: bold;
+}
+
+.resummarize-add-submit {
+    display: none;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.resummarize-options input {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px !important;
+}
+
+.resummarize-options select {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+}
