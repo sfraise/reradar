@@ -4,6 +4,44 @@
 */
 
 /*** GENERAL THEME STYLES ***/
+a {
+    color: #c22824;
+    -webkit-transition: all 0.2s linear !important;
+    -moz-transition: all 0.2s linear !important;
+    -ms-transition: all 0.2s linear !important;
+    -o-transition: all 0.2s linear !important;
+    transition: all 0.2s linear !important;
+}
+
+a:hover {
+    color: #7d1e1a;
+}
+
+h1, h2 {
+    letter-spacing: 0.05vw;
+}
+
+.table {
+    display: table;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#wpadminbar {
+    display: none;
+}
+
+.post-edit-link {
+    display: none;
+}
+
 .site-container {
     position: relative;
 }
@@ -26,6 +64,10 @@
     padding: 0 60px;
 }
 
+.entry-meta {
+    display: none;
+}
+
 .content .entry {
     padding-top: 0;
 }
@@ -38,7 +80,10 @@
     position: relative;
     background: #000;
     color: #fff;
-    padding: 0 1vw;
+    padding-top: 1vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
     margin-bottom: 6vh;
 }
 
@@ -197,6 +242,28 @@ main {
 
 #menu-main .menu-item .sub-menu a:hover {
     color: #ff3434;
+}
+
+.section-heading {
+    display: inline-block;
+    border-bottom: 4px solid #c22824;
+    margin: 0;
+    padding: 0;
+}
+
+/*** NEWS POST PAGE ***/
+.news-post-headline {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.news-post-content p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    text-indent: 20px;
+    margin-bottom: 30px;
 }
 
 /*** FOOTER ***/

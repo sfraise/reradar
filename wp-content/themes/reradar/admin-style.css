@@ -1,1 +1,8 @@
 
+.wp-admin .separator {
+    border-top: 1px solid #888;
+}
+
+.acf-postbox .hndle {
+    font-size: 30px !important;
+}

@@ -264,3 +264,115 @@ function build_content_type_taxonomy() {
     );
 }
 add_action( 'init', 'build_content_type_taxonomy', 0 );
+
+function build_agent_profiles_categories() {
+    register_taxonomy(
+        'agent_profiles_categories',
+        array(
+            'agent-profiles'
+        ), // this is the custom post type(s) I want to use this taxonomy for
+        array(
+            'hierarchical' => false,
+            'label' => 'Agent Profiles Categories',
+            'query_var' => true,
+            'rewrite' => true
+        )
+    );
+}
+add_action( 'init', 'build_agent_profiles_categories', 0 );
+
+function build_broker_profiles_categories() {
+    register_taxonomy(
+        'broker_profiles_categories',
+        array(
+            'broker-profiles'
+        ), // this is the custom post type(s) I want to use this taxonomy for
+        array(
+            'hierarchical' => false,
+            'label' => 'Broker Profiles Categories',
+            'query_var' => true,
+            'rewrite' => true
+        )
+    );
+}
+add_action( 'init', 'build_broker_profiles_categories', 0 );
+
+function build_directory_categories() {
+    register_taxonomy(
+        'directory_categories',
+        array(
+            'directory'
+        ), // this is the custom post type(s) I want to use this taxonomy for
+        array(
+            'hierarchical' => false,
+            'label' => 'Directory Categories',
+            'query_var' => true,
+            'rewrite' => true
+        )
+    );
+}
+add_action( 'init', 'build_directory_categories', 0 );
+
+function build_products_categories() {
+    register_taxonomy(
+        'products_categories',
+        array(
+            'products'
+        ), // this is the custom post type(s) I want to use this taxonomy for
+        array(
+            'hierarchical' => false,
+            'label' => 'Products Categories',
+            'query_var' => true,
+            'rewrite' => true
+        )
+    );
+}
+add_action( 'init', 'build_products_categories', 0 );
+
+function build_resources_categories() {
+    register_taxonomy(
+        'resources_categories',
+        array(
+            'resources'
+        ), // this is the custom post type(s) I want to use this taxonomy for
+        array(
+            'hierarchical' => false,
+            'label' => 'Resources Categories',
+            'query_var' => true,
+            'rewrite' => true
+        )
+    );
+}
+add_action( 'init', 'build_resources_categories', 0 );
+
+function build_expert_categories() {
+    register_taxonomy(
+        'expert_categories',
+        array(
+            'expert'
+        ), // this is the custom post type(s) I want to use this taxonomy for
+        array(
+            'hierarchical' => false,
+            'label' => 'Expert Categories',
+            'query_var' => true,
+            'rewrite' => true
+        )
+    );
+}
+add_action( 'init', 'build_expert_categories', 0 );
+
+function build_news_categories() {
+    register_taxonomy(
+        'news_categories',
+        array(
+            'news'
+        ), // this is the custom post type(s) I want to use this taxonomy for
+        array(
+            'hierarchical' => false,
+            'label' => 'News Categories',
+            'query_var' => true,
+            'rewrite' => true
+        )
+    );
+}
+add_action( 'init', 'build_news_categories', 0 );

@@ -50,7 +50,7 @@
     font-style: italic;
 }
 
-.original-content .mce-toolbar-grp {
+.original-content .mce-toolbar-grp, .headline .mce-toolbar-grp {
     display: none;
 }
 
